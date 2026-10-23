@@ -1,0 +1,23 @@
+{
+  "name": "release-inspector-hackathon",
+  "version": "1.0.0",
+  "description": "Local semantic asset retrieval and deterministic release review",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "python server.py",
+    "setup:model": "python setup-model.py",
+    "test": "node --test tests/*.test.mjs semantic.test.mjs",
+    "test:semantic": "node --test semantic.test.mjs",
+    "build": "python build.py"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@huggingface/transformers": "3.8.1"
+  },
+  "private": true
+}

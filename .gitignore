@@ -1,0 +1,11 @@
+node_modules/
+models/
+vendor/
+dist/
+dist-manifest.json
+__pycache__/
+*.pyc
+.env
+.env.*
+.openai/
+.wrangler/
